@@ -18,6 +18,10 @@ public class OnlineOrderingSystem {
                 new Salad("Ceasar Salad",6.50,"Crustations, Lettuce, Dressing, Chicken"),
                 new Salad("Fruit Salad",8.50,"Mangos, Strawberries, Banana, Kiwi"),
                 new Salad("PotatoSalad",7.60,"Potatos, Eggs, Chives, mayo"),
+
+                new Desert("Brownie",3.89,"chocolate, brownie"),
+                new Desert("Ice cream",4,"Vanilla, cream, ice"),
+                new Desert("Trifle",8,"Jelly, Custard, Cream, lady fingers"),
         };
         for(MenuItem MenuItem:menuItems) {
             System.out.println("Name: \n" + MenuItem.getName() + "\nDescription: \n" + MenuItem.getDescription() + "\nPrice: \n" + MenuItem.getPrice() + "\n");
